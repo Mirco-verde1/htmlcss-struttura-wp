@@ -23,13 +23,12 @@
 /* START CONTAINER */
 
 .container{
-	width: 1200px;
+	width: 100vw;
+  max-width: 1200px;
 	margin: 0 auto;
   background-color: #ccc;
 
 }
-
-
 
 header{
 	height: 100px;
@@ -42,7 +41,7 @@ header{
 /* START-BOX */
 
 .box-container{
-	width: 100%
+	width: 100%;
 }
 
 .box-1{
@@ -68,20 +67,22 @@ header{
 }
 .box-4{
 	width: 25%;
-	background-color: yellow;
+ 	background-color: yellow;
 	height: 150px;
 	border: 2px solid black;
 	margin-top: 10px;
 }
 
+/* END-BOX */
+
+
+/* FOOTER */
 footer{
-	height: 150px;
-	background-color: #1aff1a;
+	height: 80px;
+   margin-top: 20px;
+   	background-color: #1aff1a;
 }
 
 
-
-
-/* END-BOX */
 
 /* END CONTAINER */
